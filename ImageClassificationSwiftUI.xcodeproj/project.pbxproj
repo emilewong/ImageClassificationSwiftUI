@@ -7,19 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1252F40264FB44F00AA126F /* VisionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1252F3F264FB44F00AA126F /* VisionClassifier.swift */; };
 		A151467D264EE1C000771916 /* ImageClassificationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151467C264EE1C000771916 /* ImageClassificationSwiftUIApp.swift */; };
-		A151467F264EE1C000771916 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151467E264EE1C000771916 /* ContentView.swift */; };
 		A1514681264EE1C100771916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1514680264EE1C100771916 /* Assets.xcassets */; };
 		A1514684264EE1C100771916 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1514683264EE1C100771916 /* Preview Assets.xcassets */; };
+		A151468D264EE23A00771916 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A151468C264EE23A00771916 /* MobileNetV2.mlmodel */; };
+		A1514692264EE25900771916 /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151468E264EE25800771916 /* NavigationContentView.swift */; };
+		A1514693264EE25900771916 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151468F264EE25800771916 /* ImagePicker.swift */; };
+		A1514695264EE25900771916 /* MobileNetV2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1514691264EE25900771916 /* MobileNetV2View.swift */; };
+		A1514697264EE25F00771916 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1514696264EE25F00771916 /* UIImage+Extensions.swift */; };
+		A151469C264EE2D700771916 /* FruitClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A151469B264EE2D700771916 /* FruitClassifier.swift */; };
+		A17CFAA3265564D80005BD27 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17CFAA2265564D80005BD27 /* TesseractOCR.framework */; };
+		A1BDD68226551480009997D4 /* OCRReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BDD68126551480009997D4 /* OCRReader.swift */; };
+		A1F91A352650F5BD004724CE /* AllFruitClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A1F91A342650F5BD004724CE /* AllFruitClassifierModel.mlmodel */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A17CFAA12655634E0005BD27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A1252F3F264FB44F00AA126F /* VisionClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionClassifier.swift; sourceTree = "<group>"; };
 		A1514679264EE1C000771916 /* ImageClassificationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageClassificationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A151467C264EE1C000771916 /* ImageClassificationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassificationSwiftUIApp.swift; sourceTree = "<group>"; };
-		A151467E264EE1C000771916 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1514680264EE1C100771916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1514683264EE1C100771916 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1514685264EE1C100771916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A151468C264EE23A00771916 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		A151468E264EE25800771916 /* NavigationContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
+		A151468F264EE25800771916 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A1514691264EE25900771916 /* MobileNetV2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNetV2View.swift; sourceTree = "<group>"; };
+		A1514696264EE25F00771916 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		A151469B264EE2D700771916 /* FruitClassifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FruitClassifier.swift; sourceTree = "<group>"; };
+		A17CFAA2265564D80005BD27 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = "<group>"; };
+		A1BDD68126551480009997D4 /* OCRReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRReader.swift; sourceTree = "<group>"; };
+		A1F91A342650F5BD004724CE /* AllFruitClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AllFruitClassifierModel.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17CFAA3265564D80005BD27 /* TesseractOCR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +68,7 @@
 		A1514670264EE1C000771916 = {
 			isa = PBXGroup;
 			children = (
+				A17CFAA2265564D80005BD27 /* TesseractOCR.framework */,
 				A151467B264EE1C000771916 /* ImageClassificationSwiftUI */,
 				A151467A264EE1C000771916 /* Products */,
 			);
@@ -53,8 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				A151467C264EE1C000771916 /* ImageClassificationSwiftUIApp.swift */,
-				A151467E264EE1C000771916 /* ContentView.swift */,
+				A1514698264EE27D00771916 /* View */,
 				A1514680264EE1C100771916 /* Assets.xcassets */,
+				A151468B264EE23A00771916 /* mlModel */,
+				A151469A264EE29A00771916 /* Utility */,
+				A1514699264EE28D00771916 /* Extensions */,
 				A1514685264EE1C100771916 /* Info.plist */,
 				A1514682264EE1C100771916 /* Preview Content */,
 			);
@@ -69,6 +105,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A151468B264EE23A00771916 /* mlModel */ = {
+			isa = PBXGroup;
+			children = (
+				A1F91A342650F5BD004724CE /* AllFruitClassifierModel.mlmodel */,
+				A151468C264EE23A00771916 /* MobileNetV2.mlmodel */,
+			);
+			path = mlModel;
+			sourceTree = "<group>";
+		};
+		A1514698264EE27D00771916 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A151469B264EE2D700771916 /* FruitClassifier.swift */,
+				A1514691264EE25900771916 /* MobileNetV2View.swift */,
+				A151468E264EE25800771916 /* NavigationContentView.swift */,
+				A1BDD68126551480009997D4 /* OCRReader.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1514699264EE28D00771916 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1514696264EE25F00771916 /* UIImage+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A151469A264EE29A00771916 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A151468F264EE25800771916 /* ImagePicker.swift */,
+				A1252F3F264FB44F00AA126F /* VisionClassifier.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,6 +152,7 @@
 				A1514675264EE1C000771916 /* Sources */,
 				A1514676264EE1C000771916 /* Frameworks */,
 				A1514677264EE1C000771916 /* Resources */,
+				A17CFAA12655634E0005BD27 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,8 +212,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A151467F264EE1C000771916 /* ContentView.swift in Sources */,
+				A1514692264EE25900771916 /* NavigationContentView.swift in Sources */,
+				A151468D264EE23A00771916 /* MobileNetV2.mlmodel in Sources */,
+				A1514693264EE25900771916 /* ImagePicker.swift in Sources */,
+				A1252F40264FB44F00AA126F /* VisionClassifier.swift in Sources */,
 				A151467D264EE1C000771916 /* ImageClassificationSwiftUIApp.swift in Sources */,
+				A1BDD68226551480009997D4 /* OCRReader.swift in Sources */,
+				A151469C264EE2D700771916 /* FruitClassifier.swift in Sources */,
+				A1514695264EE25900771916 /* MobileNetV2View.swift in Sources */,
+				A1514697264EE25F00771916 /* UIImage+Extensions.swift in Sources */,
+				A1F91A352650F5BD004724CE /* AllFruitClassifierModel.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +353,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ImageClassificationSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 47Y5S9RJ3A;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ImageClassificationSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -293,6 +380,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ImageClassificationSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 47Y5S9RJ3A;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS/Static",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = ImageClassificationSwiftUI/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (

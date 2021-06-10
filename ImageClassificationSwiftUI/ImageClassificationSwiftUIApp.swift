@@ -11,7 +11,7 @@ import SwiftUI
 struct ImageClassificationSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationContentView()
         }
     }
 }
